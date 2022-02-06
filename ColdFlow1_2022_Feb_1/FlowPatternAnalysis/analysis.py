@@ -6,7 +6,7 @@ from scipy.fft import fft, fftfreq
 
 
 print("ok")
-cap = cv2.VideoCapture('trial1_fullPres_100x_Trim.mp4')
+cap = cv2.VideoCapture('./../data/attempt1/trial1_fullPres_100x_Trim.mp4')
 
 roi_x = 490 #187
 roi_y = 450
